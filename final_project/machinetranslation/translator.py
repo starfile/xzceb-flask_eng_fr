@@ -17,7 +17,7 @@ authenticator = IAMAuthenticator(apikey)
 
 #language_translator.set_service_url(url)
 
-def englishToFrench(englishText):
+def english_to_french(englishText):
     """
     This function translates english to french
     """
@@ -34,7 +34,7 @@ def englishToFrench(englishText):
 
     return frenchText
 
-def frenchToEnglish(frenchText):
+def french_to_english(frenchText):
     """
     This function translates french to english
     """
