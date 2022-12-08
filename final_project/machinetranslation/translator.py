@@ -1,11 +1,9 @@
-"""
-A
-"""
+"""Translate from English to French or from French to English using IBM Watson API."""
 
 import os
-from ibm_watson import LanguageTranslatorV3
-from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from dotenv import load_dotenv
+from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+from ibm_watson import LanguageTranslatorV3
 
 load_dotenv()
 
@@ -22,7 +20,7 @@ language_translator.set_service_url(url)
 
 def english_to_french(english_text):
     """
-    This function translates english to french
+    This function translates English to French.
     """
 
     if not english_text:
@@ -39,7 +37,7 @@ def english_to_french(english_text):
 
 def french_to_english(french_text):
     """
-    This function translates french to english
+    This function translates French to English.
     """
 
     if not french_text:
