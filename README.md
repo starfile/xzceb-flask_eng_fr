@@ -1,9 +1,16 @@
-Python package using in this project:
+Final projcet to implement a server with end points that allow to translate from English to French and from French to English.
+
+
+# Setup
+
+Python packages using in this project:
 ```console
 $ python3 -m pip install python-dotenv
 $ python3 -m pip install ibm_watson
 $ python3 -m pip install Flask
 ```
+
+Set the `apikey` and the `url` of your IBM Language Translator instance using the file `final_project/machinetranslation/.env`.
 
 # Server
 
